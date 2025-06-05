@@ -1,10 +1,10 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  outputFileTracingIncludes: {
-    registry: ["./registry/**/*"],
-  },
   /* config options here */
+  images: {
+    domains: ["images.unsplash.com"],
+  },
 };
 
 export default nextConfig;

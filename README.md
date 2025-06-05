@@ -1,23 +1,89 @@
-# registry-template
+# 🚀 nirmaanUI
 
-You can use the `shadcn` CLI to run your own component registry. Running your own
-component registry allows you to distribute your custom components, hooks, pages, and
-other files to any React project.
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![npm version](https://img.shields.io/npm/v/nirmaan-ui.svg)](https://www.npmjs.com/package/nirmaan-ui)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/nandanNM/nirmaan-ui/main.yml)](https://github.com/nandanNM/nirmaan-ui/actions)
+[![Website](https://img.shields.io/website?url=https%3A%2F%2Fnirmaanui.in)](https://nirmaanui.in)
 
-> [!IMPORTANT]  
-> This template uses Tailwind v3. For Tailwind v4, see [registry-template](https://github.com/shadcn-ui/registry-template-v4).
+_Build your crazy website with nirmaanUI_
 
-## Getting Started
+nirmaanUI is a sleek and modern _React UI component library_ built using _Tailwind CSS_. Designed with minimalism and developer experience in mind, it provides a wide variety of responsive, accessible, and customizable components to accelerate your frontend development.
 
-This is a template for creating a custom registry using Next.js.
+🔗 [Live Documentation](https://www.nirmaanui.in)  
+📦 [GitHub Repository](https://github.com/nandanNM/nirmaan-ui)
 
-- The template uses a `registry.json` file to define components and their files.
-- The `shadcn build` command is used to build the registry.
-- The registry items are served as static files under `public/r/[name].json`.
-- The template also includes a route handler for serving registry items.
-- Every registry item are compatible with the `shadcn` CLI.
-- We have also added v0 integration using the `Open in v0` api.
+---
 
-## Documentation
+## 🌟 Features
 
-Visit the [shadcn documentation](https://ui.shadcn.com/docs/registry) to view the full documentation.
+- ✨ _Beautiful & Modern UI_ — Clean and intuitive design system
+- ⚡ _Built with Tailwind CSS_ — Utility-first styling out of the box
+- 🧱 _Rich Component Library_ — Buttons, modals, inputs, loaders, and more
+- ♿ _Accessibility First_ — Components follow a11y best practices
+- 🛠 _Easy Customization_ — Style and extend components with ease
+- 📦 _Ready for Production_ — Use in React projects instantly
+
+---
+
+## 📦 Installation
+
+Install the package using your favorite package manager:
+
+```bash
+npm install nirmaan-ui
+# or
+yarn add nirmaan-ui
+# or
+pnpm add nirmaan-ui
+
+---
+
+## ✨ Add Components
+
+Now summon the mighty **nirmaan Button** 🪄
+
+pnpm dlx shadcn@latest add https://nirmaanui.in/c/nirmaan_button.json
+```
+
+You can add more from the [Components](https://nirmaanui.in/components) section on our website!
+
+---
+
+## 🧩 Available Components
+
+- Button
+- Input
+- GitHub Button
+- Carousel
+- Modal
+- Alert
+- Accordion
+- Card
+- Destination Card
+- Avatar
+- Badge
+- Loader
+
+### 🧱 Blocks
+
+- Footer
+- Hero
+
+> All components are beautifully styled and built with Tailwind CSS and Shadcn UI.
+
+---
+
+## 🌐 Links
+
+- 🔗 Docs: [https://www.nirmaanui.in](https://www.nirmaanui.in)
+- 💻 GitHub: [https://github.com/nandanNM/nirmaan-ui](https://github.com/nandanNM/nirmaan-ui)
+
+---
+
+## 🌟 Star the Repo
+
+If you find nirmaan UI useful, don't forget to ⭐ [Star us on GitHub](https://github.com/nandanNM/nirmaan-ui)!
+
+---
+
+https://github.com/user-attachments/assets/47414df8-0ac6-4c85-80d1-e71413d5e038

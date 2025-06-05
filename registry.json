@@ -1,62 +1,257 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry.json",
-  "name": "acme",
-  "homepage": "https://acme.com",
+  "name": "nirmaan",
+  "homepage": "https://nirmaanui.in",
   "items": [
     {
-      "name": "hello-world",
+      "name": "nirmaan-button",
       "type": "registry:component",
-      "title": "Hello World",
-      "description": "A simple hello world component",
-      "registryDependencies": ["button"],
+      "title": "nirmaan Button",
+      "description": "A simple nirmaan button component",
+      "registryDependencies": [],
       "files": [
         {
-          "path": "registry/new-york/hello-world/hello-world.tsx",
-          "type": "registry:component"
+          "path": "components/nirmaan/button/button.tsx",
+          "type": "registry:component",
+          "target": "components/ui/nirmaan-ui/button.tsx"
         }
       ]
     },
     {
-      "name": "example-form",
+      "name": "nirmaan-accordion",
       "type": "registry:component",
-      "title": "Example Form",
-      "description": "A contact form with Zod validation.",
-      "dependencies": ["zod"],
-      "registryDependencies": ["button", "input", "label", "textarea", "card"],
+      "title": "nirmaan Accordion",
+      "description": "A simple nirmaan accordion component",
+      "registryDependencies": [],
       "files": [
         {
-          "path": "registry/new-york/example-form/example-form.tsx",
-          "type": "registry:component"
+          "path": "components/nirmaan/accordion/accordion.tsx",
+          "type": "registry:component",
+          "target": "components/ui/nirmaan-ui/accordion.tsx"
         }
       ]
     },
     {
-      "name": "complex-component",
+      "name": "nirmaan-accordion",
       "type": "registry:component",
-      "title": "Complex Component",
-      "description": "A complex component showing hooks, libs and components.",
-      "registryDependencies": ["card"],
+      "title": "nirmaan Accordion",
+      "description": "A simple nirmaan accordion component",
+      "registryDependencies": [],
       "files": [
         {
-          "path": "registry/new-york/complex-component/page.tsx",
-          "type": "registry:page",
-          "target": "app/pokemon/page.tsx"
-        },
+          "path": "components/nirmaan/accordion/accordion.tsx",
+          "type": "registry:component",
+          "target": "components/ui/nirmaan-ui/accordion.tsx"
+        }
+      ]
+    },
+    {
+      "name": "nirmaan-alert",
+      "type": "registry:component",
+      "title": "nirmaan Alert",
+      "description": "A simple nirmaan alert component",
+      "registryDependencies": [],
+      "files": [
         {
-          "path": "registry/new-york/complex-component/components/pokemon-card.tsx",
-          "type": "registry:component"
-        },
+          "path": "components/nirmaan/alert.tsx",
+          "type": "registry:component",
+          "target": "components/ui/nirmaan-ui/alert.tsx"
+        }
+      ]
+    },
+    {
+      "name": "nirmaan-avatar",
+      "type": "registry:component",
+      "title": "nirmaan Avtar",
+      "description": "A simple nirmaan avtar component",
+      "registryDependencies": [],
+      "files": [
         {
-          "path": "registry/new-york/complex-component/components/pokemon-image.tsx",
-          "type": "registry:component"
-        },
+          "path": "components/nirmaan/avatar.tsx",
+          "type": "registry:component",
+          "target": "components/ui/nirmaan-ui/avtar.tsx"
+        }
+      ]
+    },
+    {
+      "name": "nirmaan-badge",
+      "type": "registry:component",
+      "title": "nirmaan Badge",
+      "description": "A simple nirmaan badge component",
+      "registryDependencies": [],
+      "files": [
         {
-          "path": "registry/new-york/complex-component/lib/pokemon.ts",
-          "type": "registry:lib"
-        },
+          "path": "components/nirmaan/badge.tsx",
+          "type": "registry:component",
+          "target": "components/ui/nirmaan-ui/badge.tsx"
+        }
+      ]
+    },
+    {
+      "name": "nirmaan-card",
+      "type": "registry:component",
+      "title": "nirmaan Card",
+      "description": "A simple nirmaan card component",
+      "registryDependencies": [],
+      "files": [
         {
-          "path": "registry/new-york/complex-component/hooks/use-pokemon.ts",
-          "type": "registry:hook"
+          "path": "components/nirmaan/card/normal-card.tsx",
+          "type": "registry:component",
+          "target": "components/ui/nirmaan-ui/card.tsx"
+        }
+      ]
+    },
+    {
+      "name": "nirmaan-image-card",
+      "type": "registry:component",
+      "title": "nirmaan Avtar",
+      "description": "A simple nirmaan image card component",
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "components/nirmaan/card/image-card.tsx",
+          "type": "registry:component",
+          "target": "components/ui/nirmaan-ui/image-card.tsx"
+        }
+      ]
+    },
+    {
+      "name": "nirmaan-flip-card",
+      "type": "registry:component",
+      "title": "nirmaan Flip card",
+      "description": "A simple nirmaan flip card component",
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "components/nirmaan/card/flip-card.tsx",
+          "type": "registry:component",
+          "target": "components/ui/nirmaan-ui/flip-card.tsx"
+        }
+      ]
+    },
+    {
+      "name": "nirmaan-carousel",
+      "type": "registry:component",
+      "title": "nirmaan Carousel",
+      "description": "A simple nirmaan carousel component",
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "components/nirmaan/carousel.tsx",
+          "type": "registry:component",
+          "target": "components/ui/nirmaan-ui/carousel.tsx"
+        }
+      ]
+    },
+    {
+      "name": "nirmaan-destination-card",
+      "type": "registry:component",
+      "title": "nirmaan Destination Card",
+      "description": "A simple nirmaan destination card component",
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "components/nirmaan/card/destination-card.tsx",
+          "type": "registry:component",
+          "target": "components/ui/nirmaan-ui/destination-card.tsx"
+        }
+      ]
+    },
+    {
+      "name": "nirmaan-gitHub-button",
+      "type": "registry:component",
+      "title": "nirmaan GitHub Button ",
+      "description": "A simple nirmaan gitHub button component",
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "components/nirmaan/button/gitHubStar-button.tsx",
+          "type": "registry:component",
+          "target": "components/ui/nirmaan-ui/gitHub-button.tsx"
+        }
+      ]
+    },
+    {
+      "name": "nirmaan-input",
+      "type": "registry:component",
+      "title": "nirmaan Input ",
+      "description": "A simple nirmaan input component",
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "components/nirmaan/input/input.tsx",
+          "type": "registry:component",
+          "target": "components/ui/nirmaan-ui/input.tsx"
+        }
+      ]
+    },
+    {
+      "name": "nirmaan-password-input",
+      "type": "registry:component",
+      "title": "nirmaan Password Input ",
+      "description": "A simple nirmaan password input component",
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "components/nirmaan/input/password-input.tsx",
+          "type": "registry:component",
+          "target": "components/ui/nirmaan-ui/password-input.tsx"
+        }
+      ]
+    },
+    {
+      "name": "nirmaan-loader",
+      "type": "registry:component",
+      "title": "nirmaan Loader ",
+      "description": "A simple nirmaan loader component",
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "components/nirmaan/loader.tsx",
+          "type": "registry:component",
+          "target": "components/ui/nirmaan-ui/loader.tsx"
+        }
+      ]
+    },
+    {
+      "name": "nirmaan-modal",
+      "type": "registry:component",
+      "title": "nirmaan Modal ",
+      "description": "A simple nirmaan modal component",
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "components/nirmaan/modal/modal.tsx",
+          "type": "registry:component",
+          "target": "components/ui/nirmaan-ui/modal.tsx"
+        }
+      ]
+    },
+    {
+      "name": "nirmaan-footer",
+      "type": "registry:component",
+      "title": "nirmaan Footer ",
+      "description": "A simple nirmaan footer component",
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "components/nirmaan/footer/footer.tsx",
+          "type": "registry:component",
+          "target": "components/ui/nirmaan-ui/footer.tsx"
+        }
+      ]
+    },
+    {
+      "name": "nirmaan-hero",
+      "type": "registry:component",
+      "title": "nirmaan Hero ",
+      "description": "A simple nirmaan hero component",
+      "registryDependencies": [],
+      "files": [
+        {
+          "path": "components/nirmaan/hero/hero.tsx",
+          "type": "registry:component",
+          "target": "components/ui/nirmaan-ui/hero.tsx"
         }
       ]
     }
