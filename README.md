@@ -1,16 +1,16 @@
-# 🚀 nirmaanUI
+# 🚀 Nirmaan UI
 
-[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+<!-- [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![npm version](https://img.shields.io/npm/v/nirmaan-ui.svg)](https://www.npmjs.com/package/nirmaan-ui)
 [![Build Status](https://img.shields.io/github/actions/workflow/status/nandanNM/nirmaan-ui/main.yml)](https://github.com/nandanNM/nirmaan-ui/actions)
-[![Website](https://img.shields.io/website?url=https%3A%2F%2Fnirmaanui.in)](https://nirmaanui.in)
+[![Website](https://img.shields.io/website?url=https%3A%2F%2Fnirmaanui.in)](https://nirmaan-ui.vercel.app/) -->
 
-_Build your crazy website with nirmaanUI_
+_Build your crazy website with Nirmaan UI_
 
-nirmaanUI is a sleek and modern _React UI component library_ built using _Tailwind CSS_. Designed with minimalism and developer experience in mind, it provides a wide variety of responsive, accessible, and customizable components to accelerate your frontend development.
+Nirmaan UI is a sleek and modern _React UI component library_ built using _Tailwind CSS_. Designed with minimalism and developer experience in mind, it provides a wide variety of responsive, accessible, and customizable components to accelerate your frontend development.
 
-🔗 [Live Documentation](https://www.nirmaanui.in)  
-📦 [GitHub Repository](https://github.com/nandanNM/nirmaan-ui)
+🔗 [Live Documentation](https://nirmaan-ui.vercel.app)  
+📦 [GitHub Repository](https://github.com/HasimMolla/Nirmaan-ui)
 
 ---
 
@@ -27,7 +27,7 @@ nirmaanUI is a sleek and modern _React UI component library_ built using _Tailwi
 
 ## 📦 Installation
 
-Install the package using your favorite package manager:
+<!-- Install the package using your favorite package manager:
 
 ```bash
 npm install nirmaan-ui
@@ -42,10 +42,10 @@ pnpm add nirmaan-ui
 
 Now summon the mighty **nirmaan Button** 🪄
 
-pnpm dlx shadcn@latest add https://nirmaanui.in/c/nirmaan_button.json
-```
+pnpm dlx shadcn@latest add https://nirmaan-ui.vercel.app/c/nirmaan_button.json
+``` -->
 
-You can add more from the [Components](https://nirmaanui.in/components) section on our website!
+You can add more from the [Components](https://nirmaan-ui.vercel.app/docs/components/button) section on our website!
 
 ---
 
@@ -75,15 +75,15 @@ You can add more from the [Components](https://nirmaanui.in/components) section 
 
 ## 🌐 Links
 
-- 🔗 Docs: [https://www.nirmaanui.in](https://www.nirmaanui.in)
-- 💻 GitHub: [https://github.com/nandanNM/nirmaan-ui](https://github.com/nandanNM/nirmaan-ui)
+- 🔗 Docs: [https://nirmaan-ui.vercel.app/docs](https://nirmaan-ui.vercel.app/docs)
+- 💻 GitHub: [https://github.com/HasimMolla/Nirmaan-ui](https://github.com/HasimMolla/Nirmaan-ui)
 
 ---
 
 ## 🌟 Star the Repo
 
-If you find nirmaan UI useful, don't forget to ⭐ [Star us on GitHub](https://github.com/nandanNM/nirmaan-ui)!
+If you find nirmaan UI useful, don't forget to ⭐ [Star us on GitHub](https://github.com/HasimMolla/Nirmaan-ui)!
 
 ---
 
-https://github.com/user-attachments/assets/47414df8-0ac6-4c85-80d1-e71413d5e038
+
