@@ -38,11 +38,11 @@ export default function AccordionPage() {
           <div className="w-full flex items-center justify-center flex-col gap-8">
             {/* component */}
             <Accordion>
-              <AccordionItem value="what-is-crazy-ui">
-                <AccordionTrigger value="what-is-crazy-ui">
-                  What is Crazy UI?
+              <AccordionItem value="what-is-nirmaan-ui">
+                <AccordionTrigger value="what-is-nirmaan-ui">
+                  What is Nirmaan UI?
                 </AccordionTrigger>
-                <AccordionContent value="what-is-crazy-ui">
+                <AccordionContent value="what-is-nirmaan-ui">
                   A beautifully reusable and fully customizable UI component
                   library built for speed, flexibility, and aesthetics.
                 </AccordionContent>
@@ -50,7 +50,7 @@ export default function AccordionPage() {
 
               <AccordionItem value="how-to-use">
                 <AccordionTrigger value="how-to-use">
-                  How do I use Crazy UI?
+                  How do I use Nirmaan UI?
                 </AccordionTrigger>
                 <AccordionContent value="how-to-use">
                   Simply install the package, import the components, and start
